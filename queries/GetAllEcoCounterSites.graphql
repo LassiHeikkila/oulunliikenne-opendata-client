@@ -1,0 +1,24 @@
+query GetAllEcoCounterSites {
+  ecoCounterSites {
+    id
+    siteId
+    name
+    domain
+    userType
+    timezone
+    interval
+    sens
+    channels {
+      id
+      siteId
+      name
+      domain
+      userType
+      timezone
+      interval
+      sens
+      lat
+      lon
+    }
+  }
+}

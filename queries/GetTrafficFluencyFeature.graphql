@@ -1,0 +1,20 @@
+query GetTrafficFluencyFeature {
+   trafficFluencyFeature(id:"24244") {
+     type
+     geometry
+     properties {
+       id
+       type
+       measuredTime
+       trafficFlow
+       name
+       trafficDirection
+       trafficDirectionName
+       speedLimit
+       averageSpeed
+       detName
+       giveWayDelay
+       maxWaitCycles
+     }
+   }
+ }

@@ -1,0 +1,10 @@
+query GetAllCarParks {
+  carParks {
+    carParkId
+    name
+    lat
+    lon
+    maxCapacity
+    spacesAvailable
+  }
+}

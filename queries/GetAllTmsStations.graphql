@@ -1,0 +1,16 @@
+query GetAllTmsStations { 
+  tmsStations {
+    tmsStationId
+    name
+    lat
+    lon
+    collectionStatus
+    measuredTime
+    sensorValues {
+      roadStationId
+      name
+      sensorValue
+      sensorUnit
+    }
+  }
+}

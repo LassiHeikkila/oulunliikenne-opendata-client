@@ -1,0 +1,12 @@
+query GetMaintenanceVehicleRouteEvents {
+     maintenanceVehicleRouteEvents(routeType:MOTORISED) {
+       id
+       routeEventId
+       routeType
+       measuredTime
+       contractId
+       jobIds
+       geometryId
+       geojson
+     }
+ }

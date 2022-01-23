@@ -1,0 +1,12 @@
+query GetMaintenanceVehicleObservations {
+   maintenanceVehicleObservations(contractId:1250) { # 1255 is another valid contractorId
+     vehicleNumber
+     vehicleType
+     timestamp
+     contractId
+     direction
+     jobIds
+     lat
+     lon
+   }
+ }

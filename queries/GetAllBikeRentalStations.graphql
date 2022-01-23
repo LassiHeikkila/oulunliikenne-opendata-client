@@ -1,0 +1,13 @@
+query GetAllBikeRentalStations {
+  bikeRentalStations {
+    id
+    stationId
+    name
+    bikesAvailable
+    spacesAvailable
+    state
+    allowDropoff
+    lat
+    lon
+  }
+}

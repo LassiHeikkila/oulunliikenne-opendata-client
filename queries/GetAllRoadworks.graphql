@@ -1,0 +1,14 @@
+query GetAllRoadworks {
+  roadworks {
+    id
+    roadworkId
+    severity
+    status
+    startTime
+    endTime
+    description {
+      fi
+    }
+    geojson
+  }
+}
